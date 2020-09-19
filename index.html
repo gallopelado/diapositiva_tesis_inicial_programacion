@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Inicial</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section> <!-- Sección introductoria -->
+					<section>
+						<h4>Universidad Tecnológica Intercontinenal</h4>
+						<h4>Etapa de programación</h4>
+						<h4>Tesista: Juan José González Ramírez</h4>
+						<h5>Año 2020</h5>
+					</section>
+					<section>
+						<h3>En qué consiste el trabajo...</h3>
+						<p>Desarrollar un sistema informático basado en</p>
+						<p>una organización religiosa llamada</p>
+						<p>Iglesia Encuentro Cristiano</p>
+					</section>
+					<section>
+						<h4>Módulos a desarrollar:</h4>
+						<ol>
+							<li>Gestión de Membresía</li>
+							<li>Gestión de Actividades</li>
+							<li>Gestión de Cursos</li>
+						</ol>
+					</section>
+				</section>
+				<section> <!-- Especificaciones técnicas -->
+					<section>
+						<h3>Especificaciones del proyecto</h3>
+					</section>
+					<section>
+						<h4>Lenguajes de programación elegidos</h4>
+						<ul>
+							<li>Javascript(ES6)</li>
+							<li>Python 3.8.6</li>
+							<li>PLPGSQL(Proveído en Postgresql)</li>
+						</ul>
+					</section>
+					<section>
+						<h4>Frontend</h4>
+						<p>Es la sección dedicada a proveer la capa visual, comúnmente llamada cliente</p>
+					</section>
+					<section>
+						<ul>
+							<li>HMTL5(HTML+CSS3+JS)</li>
+							<li>Jinja(Motor de Plantillas)</li>
+							<li>Vuejs(Último módulo)</li>
+						</ul>
+					</section>
+					<section>
+						<h4>Backend</h4>
+						<p>Es la sección dedicada a proveer la capa de negocios, control, persistencia, comúnmente llamada servidor</p>
+					</section>
+					<section>
+						<ul>
+							<li>Flask(Microframework)</li>
+							<li>Postgresql(Implementación sin ORM)</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<h4>Control de versiones: Git</h4>
+					<h4>Repositorio público en Github <a href="https://github.com/gallopelado/sys_iglesia">sys_iglesia</a></h4>
+					<h4>Versión Alpha en línea a través de HEROKU <a href="https://sys-iglesia.herokuapp.com/">sys_iglesia.app</a></h4>
+				</section>
+				<section>
+					<h4>Anexos</h4>
+					<ul>
+						<li>Visual Studio Code para la codificación</li>
+						<li>Dbeaver, cliente ligero para gestionar Postgresql</li>
+						<li>StarUML v3 para diseño UML y DER</li>
+						<li>Elaboración de presentación con <a href="https://revealjs.com/themes/">Revealjs</a></li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
